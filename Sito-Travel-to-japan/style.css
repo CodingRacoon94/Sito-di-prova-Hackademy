@@ -1,0 +1,84 @@
+body{
+    background-image: url(asset/immagine-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+  }
+  .navbar{
+      background-color: transparent;
+      display: flex;
+      color: white;
+      justify-content: space-between;
+      border-radius: 9px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+     
+  }
+  .nav-1{
+      margin-left: 10px;
+      text-decoration: underline;
+  }
+  .nav-2{
+      margin-left:10px;
+      text-decoration: underline;
+  }
+  .nav-3{
+      margin-left: 10px;
+      text-decoration: underline;
+  }
+  .nav-4{
+      margin-left: 10px;
+      text-decoration: underline;
+  }
+  .intestazione{
+      background:linear-gradient(to left,rgba(255,0,0,0),rgba(255,0,0,1));
+      border-radius: 15px;
+      height: 150px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .cards{
+    width: 100vh;
+    height: 100px;
+    margin-top: 200px;
+    margin-left:  300px;
+      display: flex;
+      align-items: center;
+  }
+  .bronze{
+      color:white;
+      width:340px;
+      height: 290px;
+      background-color: transparent;
+      box-sizing: border-box;
+      border: 5px solid burlywood;
+      
+      
+  }
+  .silver{
+    color:white;
+    width:340px;
+    height: 290px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 5px solid silver;
+    margin: 50px;
+  }
+  .gold{
+    color:white;
+    width:340px;
+    height: 290px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 5px solid gold ;
+  }
+  .description{
+    color: yellowgreen;
+  }
+  .button{
+    margin-left: 70px;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    
+  }
